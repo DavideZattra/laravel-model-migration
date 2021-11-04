@@ -10,7 +10,9 @@ class HomeController extends Controller
 {
     public function index(){
 
-        return view('home');
+        $travels = Travel::all();
+
+        return view('home', compact('travels'));
 
     }
 }
