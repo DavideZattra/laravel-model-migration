@@ -11243,3 +11243,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#ms_travels {
+  padding: 125px 0;
+}
+#ms_travels .row {
+  justify-content: center;
+}
+#ms_travels .row .ms_travel {
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  border: 2.5px solid darkgray;
+}
+
+body {
+  background-color: black;
+}
